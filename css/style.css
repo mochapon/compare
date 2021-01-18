@@ -14,3 +14,8 @@ ul {
   /* list-style: none; */
   list-style-image: url(../img/work1.png);
 }
+
+p {
+  margin: 0;
+  margin: 20px 10px;
+}
