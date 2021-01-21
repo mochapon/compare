@@ -49,12 +49,19 @@ button {
   font-size: 12px;
 }
 
-ul {
-  list-style-image: url(../img/work1.png);
+.link {
+  text-align: center;
+  font-size: 12px;
+  color: #eee;
+  margin: 0;
+  margin: 60px auto 20px;
+}
+
+a {
+  text-decoration: none;
 }
 
 footer {
-  margin-top:60px;
   padding: 60px;
   text-align: center;
   font-size: 14px;
