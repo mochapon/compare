@@ -49,6 +49,11 @@ button {
   font-size: 12px;
 }
 
+ol {
+  font-size: 14px;
+  list-style-type: lower-latin;
+}
+
 .link {
   text-align: center;
   font-size: 12px;
@@ -68,3 +73,9 @@ footer {
   background-color: #333;
   color: gray;
 }
+
+/* @media (min-width:900px) {
+  header {
+    width: 800px;
+  }
+} */
