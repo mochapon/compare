@@ -28,6 +28,5 @@
     // list.innerText = 'リスト'
     list.appendChild(newLi);
     
-
   });
 

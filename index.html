@@ -4,39 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <title>どっちが安いか？アプリ</title>
-    <!-- <meta name="viewport" content="width=device-whidth, initial-scale=1"> -->
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes"> -->
     <link rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="webclip152.png"/>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
  
 <body>
   <header>
-      <img src="img/work1_big.png" alt="どっちが安いか？アプリのアイコン">
-    <div class="info">
-      <h1>どっちが安いか？アプリ</h1>
-      <p>同じ質量で価格を比較してみよう！</p>
+    <div class="container">
+      <div  class="icon">
+        <img src="img/work1_big.png" alt="どっちが安いか？アプリのアイコン">
+      </div>
+      <div class="info">
+        <h1>どっちが安いか？アプリ</h1>
+        <p>同じ質量で価格を比較してみよう！</p>
+      </div>
     </div>
   </header>
 
   <section>
-    <div>
+    <div class="result">
       <ol id="js_resultList">
       </ol>
     </div>
-    <div>
+    <div class="main">
       <form>
         <p>
-          <label for="guramu">質量</label><input type="text" id="guramu" size="20">
+          <label for="guramu">質量</label><input type="text" id="guramu" size="30">
         </p>
         <p>
-          <label for="kakaku">価格</label><input type="text" id="kakaku" size="20">
+          <label for="kakaku">価格</label><input type="text" id="kakaku" size="30">
         </p>
         <p>
-          <button id="button">GO!</button>
+          <button id="button">Go!</button>
         </p>
-          <!-- <button id="reset_button">Reset</button> -->
+        <p>
+          <input type="reset" name="reset" value="Clear">
         </p>
       </form>
     </div>
