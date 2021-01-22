@@ -60,13 +60,18 @@ ol {
   margin-right: auto;
 }
 
+form {
+  margin-left: 15px;
+}
+
 button {
+  margin-left: 5px;
   font-size: 14px;
 }
 
 input {
   font-size: 16px;
-  transform: scale(0.8);
+  transform: scale(0.8); /* iPhoneで画面ズームしない*/
 }
 
 .link {
