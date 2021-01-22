@@ -35,7 +35,7 @@ header {
 }
 
 .info p {
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 10px;
 }
 
@@ -61,9 +61,12 @@ ol {
 }
 
 button {
+  font-size: 14px;
+}
+
+input {
   font-size: 16px;
   transform: scale(0.8);
-
 }
 
 .link {
