@@ -27,6 +27,12 @@
     const list = document.getElementById("js_resultList");
     // list.innerText = 'リスト'
     list.appendChild(newLi);
-    
+
+    //　更新
+    const reload = document.getElementById('reload');
+    reload.addEventListener('click', function(){
+      window.location.reload();
+    });
+
   });
 
