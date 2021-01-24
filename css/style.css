@@ -5,53 +5,76 @@ body {
   color: #333;
 }
 
+/* header */
 header {
-  padding-top: 10px;
-  padding-bottom: 10px;
   background-color: #efefef;
+}
+
+.container {
+  width: 400px;
+  height: 100px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 
-header h1,
-header p {
-  margin: 0;
-}
-
-header img {
-  padding: 10px;
+.icon img {
   width: 60px;
   height: 60px;
-}
-
-header h1 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-header p {
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 .info {
-  padding: 10px 0;
-  padding-bottom: auto;
+  background-color: #efefef;
 }
 
-section {
+.info h1 {
+  font-size: 18px;
+}
+
+.info p {
+  font-size: 12px;
   margin-left: 10px;
 }
 
-p {
+/* section */
+.result {
+    font-size: 14px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main p {
+  margin: 0;
+  margin-top: 5px;
   font-size: 14px;
+}
+
+form {
+  margin-left: 10px;
 }
 
 button {
-  font-size: 12px;
+  font-size: 14px;
+  margin-left: 15px;
 }
 
-ol {
-  font-size: 14px;
-  list-style-type: lower-latin;
+input {
+  font-size: 16px;
+  transform: scale(0.8); /* iPhoneで画面ズームしない*/
 }
 
 .link {
@@ -66,8 +89,9 @@ a {
   text-decoration: none;
 }
 
+/* footer */
 footer {
-  padding: 60px;
+  padding: 60px 0px;
   text-align: center;
   font-size: 14px;
   background-color: #333;
