@@ -47,10 +47,18 @@ header {
   margin-right: auto;
 }
 
+.result h1 {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 14px;
+}
+
 ul {
   /* list-style-type: none; */
   list-style-image: url('../img/work1_s.png');
   color: blue;
+  font-size: 14px;
 }
 
 .main {
@@ -67,8 +75,8 @@ ul {
 
 .syosu {
   margin-top: 10px;
-  margin-left: 10px;
-  font-size: 12px;
+  margin-left: 60px;
+  font-size: 10px;
 }
 
 form {
