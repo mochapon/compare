@@ -55,7 +55,7 @@ header {
 } */
 
 .result {
-  font-size: 14px;
+  /* font-size: 14px; */
   /* width: 400px; */
   /* margin-left: auto;
   margin-right: auto; */
@@ -67,6 +67,7 @@ header {
   margin-left: 20px;
   font-size: 14px;
   font-weight: normal;
+  /* text-align: center; */
 }
 
 ul {
