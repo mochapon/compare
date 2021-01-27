@@ -47,10 +47,10 @@ header {
 }
 
 /* section */
-section {
+/* section {
   width: 400px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 
 .result {
@@ -79,6 +79,8 @@ ul {
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .main p {
@@ -93,9 +95,9 @@ ul {
   font-size: 10px;
 }
 
-form {
+/* form {
   margin-left: 20px;
-}
+} */
 
 button {
   font-size: 14px;
