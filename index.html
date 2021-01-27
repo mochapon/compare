@@ -23,30 +23,30 @@
   </header>
 
   <section>
-    <div class="result">
-      <h1>
-        グラム：価格：＠単価(円)
-      </h1>
-      <ul>
-      </ul>
-    </div>
     <div class="main">
       <form>
         <p>
-          <label for="guramu">グラム</label><input type="text" id="guramu" pattern="\d*" size="16">
+          <label for="guramu">グラム<input type="text" id="guramu" pattern="\d*" size="16"></label>
         </p>
         <p>
-          <label for="kakaku">　価格</label><input type="text" id="kakaku" pattern="\d*" size="16">
+          <label for="kakaku">　価格<input type="text" id="kakaku" pattern="\d*" size="16"></label>
         </p>
         <p>
           <input type="button" id="reload" value="Reset">
           <input type="reset" name="reset" value="Clear">
           <button>計算</button>
         </p>
-        <div class="syosu">
-          ※小数点第2位未満切り捨て
+        <div class="result">
+          <h1>
+            --- グラム：価格：＠単価(円) ---
+          </h1>
+          <ul>
+          </ul>
         </div>
       </form>
+      <div class="syosu">
+        ※小数点第2位未満切り捨て
+      </div>
     </div>
   </section>
 

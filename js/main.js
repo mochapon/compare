@@ -10,12 +10,16 @@
     
     // 小数第三位以下切り捨て
     const tanka = Math.floor(((kakaku / guramu) * 100) * 100) / 100;
-
+    const text1 = document.getElementById('guramu');
+    const text2 = document.getElementById('kakaku');
     const li = document.createElement('li');
     li.textContent = `${guramu}g：${kakaku}円：＠${tanka}円`;
 
     document.querySelector('ul').appendChild(li);
     
+    text1.value = '';
+    text2.value = '';
+    text1.focus();
   });
 
 

@@ -1,12 +1,15 @@
 /* @charset "utf-8"; */
 body {
   margin: 0;
+  margin-right: auto;
+  margin-left : auto;
   font-family: Verdana, sans-serif;
   color: #333;
 }
 
 /* header */
 header {
+  /* width:auto; */
   background-color: #efefef;
 }
 
@@ -17,6 +20,8 @@ header {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  /* text-align: center; */
+
 }
 
 .icon img {
@@ -40,21 +45,30 @@ header {
 }
 
 /* section */
-.result {
-  font-size: 14px;
-  width: 400px;
+/* section {
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
+  background-color: tomato;
+} */
+
+.result {
+  font-size: 14px;
+  /* width: 400px; */
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .result h1 {
   margin: 0;
   margin-top: 10px;
-  margin-left: 40px;
-  font-size: 14px;
+  margin-left: 30px;
+  font-size: 12px;
+  font-weight: normal;
 }
 
 ul {
+  margin: 0%;
   /* list-style-type: none; */
   list-style-image: url('../img/work1_s.png');
   color: blue;
@@ -80,7 +94,7 @@ ul {
 }
 
 form {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 button {
@@ -94,11 +108,11 @@ input {
 }
 
 .link {
+  margin: 0;
+  margin: 60px auto 20px;
   text-align: center;
   font-size: 12px;
   color: #eee;
-  margin: 0;
-  margin: 60px auto 20px;
 }
 
 a {
