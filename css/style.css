@@ -47,10 +47,11 @@ ul {
   margin: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 5px;
   list-style-image: url('../img/work1_s.png');
   color: blue;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .main {
