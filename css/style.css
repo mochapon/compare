@@ -1,86 +1,58 @@
 /* @charset "utf-8"; */
 body {
   margin: 0;
-  margin-right: auto;
-  margin-left : auto;
   font-family: Verdana, sans-serif;
   color: #333;
 }
 
 /* header */
 header {
-  /* width:auto; */
   background-color: #efefef;
 }
 
 .container {
-  width: 400px;
-  height: 100px;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
   align-items: center;
-  /* text-align: center; */
-
 }
 
 .icon img {
   width: 60px;
   height: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.info {
-  background-color: #efefef;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .info h1 {
   font-size: 18px;
-  text-align: center;
 }
 
 .info p {
   font-size: 12px;
-  text-align: center;
-  /* margin-left: 10px; */
 }
 
 /* section */
-/* section {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto; */
-}
-
-.result {
-  /* font-size: 14px; */
-  /* width: 400px; */
-}
-
-.result h1 {
-  margin: 0;
+.item {
   margin-top: 10px;
-  margin-left: 20px;
+  text-align: center;
   font-size: 12px;
-  /* font-weight: normal; */
-  /* text-align: center; */
+  color: blue;
 }
 
 ul {
-  margin: 0%;
-  /* list-style-type: none; */
+  display: table;
+  text-align: left; // 左揃え
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   list-style-image: url('../img/work1_s.png');
   color: blue;
   font-size: 14px;
 }
 
 .main {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  /* margin-left: 20px; */
+  text-align: center;
 }
 
 .main p {
@@ -90,14 +62,9 @@ ul {
 }
 
 .syosu {
-  margin-top: 10px;
-  margin-left: 60px;
+  text-align: center;
   font-size: 10px;
 }
-
-/* form {
-  margin-left: 20px;
-} */
 
 button {
   font-size: 14px;
@@ -109,9 +76,10 @@ input {
   transform: scale(0.8); /* iPhoneで画面ズームしない*/
 }
 
+/* link */
 .link {
   margin: 0;
-  margin: 60px auto 20px;
+  margin: 50px auto 20px;
   text-align: center;
   font-size: 12px;
   color: #eee;
@@ -123,16 +91,9 @@ a {
 
 /* footer */
 footer {
-  /* width: 400px; */
   padding: 60px 0px;
   text-align: center;
   font-size: 14px;
   background-color: #333;
   color: gray;
 }
-
-/* @media (min-width:900px) {
-  header {
-    width: 800px;
-  }
-} */

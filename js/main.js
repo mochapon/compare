@@ -13,7 +13,7 @@
     const text1 = document.getElementById('guramu');
     const text2 = document.getElementById('kakaku');
     const li = document.createElement('li');
-    li.textContent = `${guramu}g：${kakaku}円：＠${tanka}円`;
+    li.textContent = `${guramu}g：${kakaku}円：単価${tanka}円`;
 
     document.querySelector('ul').appendChild(li);
     
