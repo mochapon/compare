@@ -1,7 +1,7 @@
 'use strict';
 {
   
-  document.querySelector('button').addEventListener('click', e => {
+  document.getElementById('keisan').addEventListener('click', e => {
 
     e.preventDefault();
 
@@ -24,9 +24,10 @@
 
 
   //　Resetボタンで更新
-  const reload = document.getElementById('reload');
-  reload.addEventListener('click', () => {
-  window.location.reload();
-  });
+  // const reload = document.getElementById('reload');
+
+  // reload.addEventListener('click', () => {
+  // window.location.reload();
+  // });
 
 }

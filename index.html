@@ -29,16 +29,17 @@
       </ul>
       <div class="main">
         <p>
-          <label for="guramu">グラム<input type="text" id="guramu" pattern="\d*" size="20"></label>
+          <label for="guramu">グラム<input type="text" id="guramu" pattern="\d*" ></label>
         </p>
         <p>
           <label for="kakaku">　価格<input type="text" id="kakaku" pattern="\d*" size="20"></label>
         </p>
-        <p>
-          <input type="button" id="reload" value="Reset">
-          <input type="reset" name="reset" value="Clear">
-          <button>計算</button>
-        </p>
+        <div id="btn3">
+          <!-- Reset Delete 計算-->
+          <button onclick="location.reload();"><img src="img/reset.png" alt="Reset" /></button>
+          <button type="reset"><img src="img/delete.png" alt="Delete" /></button>
+          <button id="keisan"><img src="img/keisan.png" alt="計算" /></button>
+        </div>
       </div>
     </form>
       <div class="syosu">

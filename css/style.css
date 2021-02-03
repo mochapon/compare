@@ -70,11 +70,28 @@ ul {
 }
 
 button {
-  font-size: 14px;
-  margin-left: 15px;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+button img {
+  height: 30px;
+  display: block;
+}
+
+#keisan img {
+  height: 45px;
+  margin-left: 10px;
+}
+
+#btn3 {
+  margin-top: 10px;
 }
 
 input {
+  height: 18px;
+  width: 220px;
   font-size: 16px;
   transform: scale(0.8); /* iPhoneで画面ズームしない*/
 }
