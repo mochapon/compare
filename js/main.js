@@ -22,12 +22,4 @@
     text1.focus();
   });
 
-
-  //　Resetボタンで更新
-  // const reload = document.getElementById('reload');
-
-  // reload.addEventListener('click', () => {
-  // window.location.reload();
-  // });
-
 }
