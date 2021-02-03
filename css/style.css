@@ -73,6 +73,7 @@ button {
   padding: 0;
   border: none;
   background: transparent;
+  vertical-align: middle;
 }
 
 button img {
@@ -81,8 +82,8 @@ button img {
 }
 
 #keisan img {
-  height: 45px;
-  margin-left: 18px;
+  height: 70px;
+  margin-left: 10px;
 }
 
 #btn3 {
