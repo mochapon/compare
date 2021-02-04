@@ -59,8 +59,7 @@ ul {
 
 .main p {
   margin: 0;
-  margin-top: 5px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .syosu {
@@ -72,7 +71,7 @@ ul {
 button {
   padding: 0;
   border: none;
-  background: transparent;
+  background: transparent; /* 画像の背景透明 */
   vertical-align: middle;
 }
 
@@ -91,10 +90,12 @@ button img {
 }
 
 input {
-  height: 18px;
-  width: 220px;
+  width: 160px;
+  height: 30px;
   font-size: 16px;
   transform: scale(0.8); /* iPhoneで画面ズームしない*/
+  border-radius: 6px;
+  border-color: #eee;
 }
 
 /* link */
