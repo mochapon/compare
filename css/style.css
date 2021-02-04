@@ -1,4 +1,3 @@
-/* @charset "utf-8"; */
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
@@ -8,13 +7,20 @@ body {
 /* header */
 header {
   background-color: #efefef;
+  font-size: 10px;
+}
+
+#muryou {
+  color: #999;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .container {
   display: flex;
   justify-content: center; /* flexボックス内の配置 */
   align-items: center;
-  padding-top: 16px;
+  padding-top: 6px;
   padding-bottom: 10px;
 }
 
@@ -51,6 +57,7 @@ ul {
   margin-right: auto;
   margin-top: 5px;
   list-style-image: url('../img/work1_s.png');
+  /* background: transparent; */
   color: blue;
   font-size: 16px;
   font-weight: bold;
