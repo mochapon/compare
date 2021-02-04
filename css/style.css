@@ -14,7 +14,8 @@ header {
   display: flex;
   justify-content: center; /* flexボックス内の配置 */
   align-items: center;
-  padding-top: 10px;
+  padding-top: 16px;
+  padding-bottom: 10px;
 }
 
 .icon img {
@@ -25,10 +26,12 @@ header {
 }
 
 .info h1 {
+  margin: 0;
   font-size: 18px;
 }
 
 .info p {
+  margin: 0;
   font-size: 12px;
 }
 
